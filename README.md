@@ -32,7 +32,8 @@ Codigo:
 #SBATCH --mail-user=sofia.lombana@urosario.edu.co #Direccion e-mail a donde notificar el estado del trabajo
 #SBATCH --mail-type=ALL #Especifica que eventos notificar al correo (ALL, BEGIN, END, REQUEUE, FAIL)
 module load fastqc
-fastqc SRR8528336_1.fastq.gz SRR8528336_2.fastq.gz```
+fastqc SRR8528336_1.fastq.gz SRR8528336_2.fastq.gz
+```
 
 3. ```sbatch fastqc.sh```
 
